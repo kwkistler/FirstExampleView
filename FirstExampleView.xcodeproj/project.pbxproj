@@ -11,6 +11,10 @@
 		20E369522B57498000EDB931 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E369512B57498000EDB931 /* ContentView.swift */; };
 		20E369542B57498400EDB931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E369532B57498400EDB931 /* Assets.xcassets */; };
 		20E369572B57498400EDB931 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E369562B57498400EDB931 /* Preview Assets.xcassets */; };
+		20EB8D7E2B574B17002ABDC5 /* MockData_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D792B574B17002ABDC5 /* MockData_Intro.swift */; };
+		20EB8D7F2B574B17002ABDC5 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */; };
+		20EB8D802B574B17002ABDC5 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */; };
+		20EB8D812B574B17002ABDC5 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		20E369512B57498000EDB931 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20E369532B57498400EDB931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E369562B57498400EDB931 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20EB8D792B574B17002ABDC5 /* MockData_Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData_Intro.swift; sourceTree = "<group>"; };
+		20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
+		20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,8 @@
 			children = (
 				20E3694F2B57498000EDB931 /* FirstExampleViewApp.swift */,
 				20E369512B57498000EDB931 /* ContentView.swift */,
+				20EB8D7B2B574B17002ABDC5 /* Models */,
+				20EB8D782B574B17002ABDC5 /* Views */,
 				20E369532B57498400EDB931 /* Assets.xcassets */,
 				20E369552B57498400EDB931 /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				20E369562B57498400EDB931 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20EB8D782B574B17002ABDC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20EB8D792B574B17002ABDC5 /* MockData_Intro.swift */,
+				20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20EB8D7B2B574B17002ABDC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */,
+				20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +124,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Kraig Kistler";
 				TargetAttributes = {
 					20E3694B2B57498000EDB931 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -137,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EB8D812B574B17002ABDC5 /* PersonModel.swift in Sources */,
+				20EB8D802B574B17002ABDC5 /* FriendModel.swift in Sources */,
+				20EB8D7F2B574B17002ABDC5 /* FirstExampleView.swift in Sources */,
 				20E369522B57498000EDB931 /* ContentView.swift in Sources */,
 				20E369502B57498000EDB931 /* FirstExampleViewApp.swift in Sources */,
+				20EB8D7E2B574B17002ABDC5 /* MockData_Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

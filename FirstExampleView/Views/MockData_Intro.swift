@@ -30,4 +30,3 @@ struct MockData_Intro: View {
     // static preview
         .modelContainer(FriendModel.preview)
 }
-
