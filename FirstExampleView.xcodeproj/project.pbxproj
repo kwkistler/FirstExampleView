@@ -15,6 +15,9 @@
 		20EB8D7F2B574B17002ABDC5 /* FirstExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */; };
 		20EB8D802B574B17002ABDC5 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */; };
 		20EB8D812B574B17002ABDC5 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */; };
+		20EB8D832B5750A4002ABDC5 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D822B5750A4002ABDC5 /* BookModel.swift */; };
+		20EB8D852B58A2A3002ABDC5 /* Model_DataPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D842B58A2A3002ABDC5 /* Model_DataPresentation.swift */; };
+		20EB8D892B58B5F4002ABDC5 /* MockData_InPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EB8D882B58B5F4002ABDC5 /* MockData_InPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstExampleView.swift; sourceTree = "<group>"; };
 		20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 		20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		20EB8D822B5750A4002ABDC5 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		20EB8D842B58A2A3002ABDC5 /* Model_DataPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_DataPresentation.swift; sourceTree = "<group>"; };
+		20EB8D882B58B5F4002ABDC5 /* MockData_InPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData_InPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +86,9 @@
 		20EB8D782B574B17002ABDC5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				20EB8D792B574B17002ABDC5 /* MockData_Intro.swift */,
-				20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */,
+				20EB8D862B58B554002ABDC5 /* First Example */,
+				20EB8D872B58B5CF002ABDC5 /* Mock Data */,
+				20EB8D8A2B58B621002ABDC5 /* Model */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -89,10 +96,36 @@
 		20EB8D7B2B574B17002ABDC5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				20EB8D822B5750A4002ABDC5 /* BookModel.swift */,
 				20EB8D7C2B574B17002ABDC5 /* FriendModel.swift */,
 				20EB8D7D2B574B17002ABDC5 /* PersonModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		20EB8D862B58B554002ABDC5 /* First Example */ = {
+			isa = PBXGroup;
+			children = (
+				20EB8D7A2B574B17002ABDC5 /* FirstExampleView.swift */,
+			);
+			path = "First Example";
+			sourceTree = "<group>";
+		};
+		20EB8D872B58B5CF002ABDC5 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				20EB8D792B574B17002ABDC5 /* MockData_Intro.swift */,
+				20EB8D882B58B5F4002ABDC5 /* MockData_InPreview.swift */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		20EB8D8A2B58B621002ABDC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20EB8D842B58A2A3002ABDC5 /* Model_DataPresentation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +203,11 @@
 				20EB8D802B574B17002ABDC5 /* FriendModel.swift in Sources */,
 				20EB8D7F2B574B17002ABDC5 /* FirstExampleView.swift in Sources */,
 				20E369522B57498000EDB931 /* ContentView.swift in Sources */,
+				20EB8D892B58B5F4002ABDC5 /* MockData_InPreview.swift in Sources */,
 				20E369502B57498000EDB931 /* FirstExampleViewApp.swift in Sources */,
+				20EB8D852B58A2A3002ABDC5 /* Model_DataPresentation.swift in Sources */,
 				20EB8D7E2B574B17002ABDC5 /* MockData_Intro.swift in Sources */,
+				20EB8D832B5750A4002ABDC5 /* BookModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
